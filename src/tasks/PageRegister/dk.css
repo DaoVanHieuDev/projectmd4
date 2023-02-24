@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.taskDangKi {
+border: 1px solid black;
+    width: 39%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: -190px;
+    
+}
+
+.title {
+    font-weight: 700;
+}
+
+.navbarDK {
+    display: flex;
+    gap: 200px;
+    border-bottom: 1px solid #b4a2a2;
+    height: 40px;
+
+}
+
+.tieptuc {
+    background-color: rgb(244, 77, 119);
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.titleNote {
+    padding: 5px 0px 10px;
+    font-size: 14px;
+}
+
+.tieptucvoi {
+    display: flex;
+    gap: 150px;
+    padding: 9px 50px 9px 30px;
+    border: solid 1px black;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.Number {
+    width: 550px;
+    height: 45px;
+    border-radius: 5px;
+    border-style: outset;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.password {
+    border-style: inset;
+    width: 550px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.titleHoac {
+    margin-top: 10px;
+}
+
+.theA {
+    color: black;
+    font-weight: 500;
+}
+
+.tblUser {
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    background-color: #fff;
+    display: none;
+}
+
+.tblUser>div {
+    margin-top: 10px;
+}
